@@ -3,7 +3,7 @@
 // @namespace    https://facebook.com
 // @version      0.1
 // @description  Remove all the "call" buttons so I don't misclick them.
-// @author       You
+// @author       gcholette
 // @match        https://*.facebook.com/**
 // @match        https://*.messenger.com/**
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
