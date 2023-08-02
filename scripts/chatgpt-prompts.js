@@ -35,10 +35,10 @@
         button.style.top = '15px'
         button.style.right = `${right}px`
         button.style.borderRadius = '1000px'
-        button.style.width = '30px'
-        button.style.height = '30px'
+        button.style.width = '40px'
+        button.style.height = '40px'
         button.style.background = 'linear-gradient(45deg, rgb(12 11 20), rgb(72 83 103))'
-        button.style.fontSize = '9px'
+        button.style.fontSize = '8px'
         button.style.color = 'white'
 
         button.addEventListener("click", function() {
@@ -48,7 +48,7 @@
         document.body.appendChild(button)
     }
 
-    const moveButton = (i) => 70 + 40 * i
+    const moveButton = (i) => 70 + 50 * i
 
     spawnButton("Jest", moveButton(0), "Help me writing the tests for the following code.\r\n\r\nUsing Jest, Typescript and sometimes React. Use the 'it' clauses instead of 'test' clauses. Tests can have multiple 'expect' clauses. Keep tests as concise as possible.\r\n\r\nIf you have to create fake or mocked data, create it outside the describe block so it can be moved to another file later. \r\n\r\nEnsure that your TypeScript and Javascript answers do not contain any semicolons, and refrain from writing any comments in the code.\r\n\r\nDo not provide any explanations to the code you provide, only speak in code snippets.\r\n\r\nDouble check your answer to make sure you follow all the provided criteria including no semicolons, no explanations and no comments.\r\n\r\nHere is the code: ")
     spawnButton("React", moveButton(1), "I'm about to share a series of React TypeScript code snippets with you. Please wait for further instructions before responding. I will ask specific questions based on this code when I am ready. When you answer these questions, be concise and straight to the point. \r\n\r\nDo not give explanations unless I ask you otherwise. Speak directly in code only. Do not write any comments in the code you provide. Do not use semicolons in javascript and typescript.\r\n\r\n")
